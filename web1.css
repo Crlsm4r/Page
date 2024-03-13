@@ -1,0 +1,374 @@
+body{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    font-style: oblique;
+}
+
+h1{
+    display: none;
+}
+
+h2{
+    display: flex;
+    color: rgb(29, 29, 75);
+    font-size: 200%;
+}
+
+.reseña1{
+    display: flex;
+    font-size: 150%;
+}
+
+.reseña2{
+    display: flex;
+    width: 500px;
+    font-size: 20px;
+}
+
+.foto img{
+    width: 140%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(148, 128, 79);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .encabezado{
+    display: flex;
+    gap: 1.5em;
+
+}
+
+ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    color: white;
+}
+
+header a i{
+    color: white;
+    font-size: 200%;
+    padding: 30%;
+}
+
+header nav ul{
+    padding: 0.5em;
+}
+
+.sec1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.sec2 img{
+    width: 100%;
+    height: 10em;
+}
+
+footer{
+    background-color: rgb(148, 128, 79);
+    display: block;
+    align-items: center;
+}
+
+
+h3{
+    padding: 10px 0px 0px 10px;
+}
+
+h4{
+    text-align: center;
+    font-size: 160%;
+}
+
+.T1{
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.T2{
+    display: block;
+    align-items: center ;
+    flex-wrap: wrap;
+}
+
+.T3{
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ajus{
+    width: 280px;
+}
+
+.sec3{
+    background-color: beige;
+}
+
+.alinear{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    gap: 7.5em;
+}
+
+.sec1 .foto img{
+    border-radius: 15%;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.form-header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #5d6063;
+    background-color: #eaedf0;
+   
+    font-size: 16px;
+  }
+  
+  /* ------------- Encabezado Contacto ------------- */
+  
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: beige;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 100%;
+    margin: 50px auto;
+    padding: 40px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  form{
+   
+    align-content: center;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 50%;
+    padding: 50px;
+    margin: 30px 0px 40px 250px;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+ 
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+
+@media (max-width: 768px){
+    header{
+        background-color: rgb(107, 57, 21);
+    }
+
+    footer h3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .alinear{
+        display: block;
+        align-content: center;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: gray;
+        text-align: center;
+
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+    }
+
+    #check:checked ~ ul{
+        left: 0%;
+        display: block;
+    }
+
+    header nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        font-size: 30px;
+    }
+
+    header nav li ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ .checkbtn{
+        color:gray;
+    }
+    h1{
+        display: block;
+    }
+    .formulario {
+        
+        width: 50%;
+        padding: 50px;
+        margin: 30px 0px 40px 80px;
+      }
+      .alinear{
+        width: 100%;
+        margin: 0px 0px 40px 130px;
+      }
+    
+}
+
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"],
+    .form-row input[type="email"]{
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+    .form-row textarea {
+        width: 250px;
+    }
+    .form-row button {
+        margin-left: 120px; 
+    }
+}
