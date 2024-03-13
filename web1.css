@@ -5,6 +5,12 @@ body{
     font-style: normal;
 }
 
+.greeting{
+    font-family: Cambria;
+    font-size: 100px;
+    color: fuchsia;
+}
+
 a{
     text-decoration: none;
     font-style: oblique;
