@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño 3D</title>
+    <title>MI WEB</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="web1.css">
 
     <!-- ICONOS -->
     <script src="https://kit.fontawesome.com/94925e67a5.js" crossorigin="anonymous"></script>
 
     <!-- FUENTE -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<div class="cont">
+
     <!-- HEADER -->
     <header>
 
-        <div class="logo">
-            <i class="fa-solid fa-cube"></i>
-            <h1>3D DESIGN</h1>
-        </div>
+        <a href="#">
+            <i class="fa-sharp fa-solid fa-dragon"></i>
+        </a>
+
+        <h1 class="Titulo">Titulo</h1>
 
         <nav>
 
@@ -33,121 +39,180 @@
                 <i class="fa-solid fa-bars"></i>
             </label>
 
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+            <ul class="encabezado">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de mí</a></li>
+                <li><a href="#">Trabajos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
 
         </nav>
 
     </header>
 
-    <!-- HERO -->
-    <section class="hero" id="inicio">
+    <!-- MAIN -->
+    <main>
 
-        <div class="hero-text">
+        <!-- SECCION 1 -->
+        <section class="sec1">
 
-            <h2>DISEÑO 3D PROFESIONAL</h2>
+            <div class="yo">
 
-            <p>
-                Creamos modelos, animaciones y experiencias visuales
-                modernas para videojuegos, arquitectura y publicidad.
-            </p>
+                <h2>CRISMAR GUILLEN PERALTILLA</h2>
 
-            <button id="btnAnimar">
-                Ver Animación
-            </button>
+                <p class="reseña1">
+                    Reseña de habilidades
+                </p>
 
-        </div>
+                <p class="reseña2">
+                    Ingeniero Mecatrónico.
+                </p>
 
-        <div class="hero-img">
-
-            <div class="cubo"></div>
-
-        </div>
-
-    </section>
-
-    <!-- SERVICIOS -->
-    <section class="servicios" id="servicios">
-
-        <h2>Nuestros Servicios</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <i class="fa-solid fa-cubes"></i>
-                <h3>Modelado 3D</h3>
-                <p>Creación de modelos tridimensionales modernos.</p>
             </div>
 
-            <div class="card">
-                <i class="fa-solid fa-film"></i>
-                <h3>Animación</h3>
-                <p>Animaciones realistas para proyectos digitales.</p>
+            <div class="foto">
+                <img src="img/FOTO CRISMAR.jpg" alt="Crismar">
             </div>
 
-            <div class="card">
-                <i class="fa-solid fa-vr-cardboard"></i>
-                <h3>Realidad Virtual</h3>
-                <p>Experiencias inmersivas en entornos virtuales.</p>
+        </section>
+
+        <!-- SECCION 2 -->
+        <section class="sec2">
+            <img src="img/paisaje.jpg" alt="paisaje">
+        </section>
+
+        <!-- SECCION 3 -->
+        <section class="sec3">
+
+            <h4>Trabajos</h4>
+
+            <div class="alinear">
+
+                <!-- TARJETA 1 -->
+                <ul class="T1">
+                    <li><strong>Trabajo 1</strong></li>
+
+                    <li>
+                        <img src="img/T1.jpeg" alt="T1">
+                    </li>
+
+                    <li class="ajus">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+
+                <!-- TARJETA 2 -->
+                <ul class="T2">
+                    <li><strong>Trabajo 2</strong></li>
+
+                    <li>
+                        <img src="img/T2.jpeg" alt="T2">
+                    </li>
+
+                    <li class="ajus">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+
+                <!-- TARJETA 3 -->
+                <ul class="T3">
+                    <li><strong>Trabajo 3</strong></li>
+
+                    <li>
+                        <img src="img/T3.jpeg" alt="T3">
+                    </li>
+
+                    <li class="ajus">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+
             </div>
 
-        </div>
+        </section>
 
-    </section>
+    </main>
 
-    <!-- GALERIA -->
-    <section class="galeria" id="galeria">
+    <!-- FOOTER -->
+    <footer class="foot">
 
-        <h2>Galería 3D</h2>
+        <h3>Redes Sociales</h3>
 
-        <div class="imagenes">
+        <nav>
+            <ul>
+                <li>Instagram</li>
+                <li>TikTok</li>
+                <li>WhatsApp</li>
+                <li>Facebook</li>
+            </ul>
+        </nav>
 
-            <img src="https://picsum.photos/400/300?1" alt="">
-            <img src="https://picsum.photos/400/300?2" alt="">
-            <img src="https://picsum.photos/400/300?3" alt="">
+    </footer>
 
-        </div>
+    <!-- FORMULARIO -->
+    <section class="form-header">
 
-    </section>
+        <h1>Contacto</h1>
 
-    <!-- CONTACTO -->
-    <section class="contacto" id="contacto">
+        <p><em>Esperamos tu consulta</em></p>
 
-        <h2>Contacto</h2>
+        <form action="" method="get" class="formulario" id="form">
 
-        <form id="formulario">
+            <div class="form-row">
 
-            <input type="text" id="nombre" placeholder="Nombre">
+                <label for="nombre">Nombre</label>
 
-            <input type="email" id="correo" placeholder="Correo">
+                <input
+                    id="nombre"
+                    name="nombre"
+                    type="text"
+                >
 
-            <textarea id="mensaje" placeholder="Mensaje"></textarea>
+            </div>
 
-            <button type="submit">
-                Enviar
-            </button>
+            <div class="form-row">
 
-            <p id="alerta"></p>
+                <label for="email">Email</label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="correo@gmail.com"
+                >
+
+            </div>
+
+            <div class="form-row">
+
+                <label for="mensaje">Mensaje</label>
+
+                <textarea
+                    id="mensaje"
+                    name="mensaje">
+                </textarea>
+
+            </div>
+
+            <div class="form-row">
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </div>
+
+            <p class="alertas" id="alertas"></p>
 
         </form>
 
     </section>
 
-    <!-- FOOTER -->
-    <footer>
+</div>
 
-        <p>
-            © 2026 Diseño 3D - Todos los derechos reservados
-        </p>
-
-    </footer>
-
-    <!-- JS -->
-    <script src="script.js"></script>
+<!-- JS -->
+<script src="web1.js"></script>
 
 </body>
 </html>
